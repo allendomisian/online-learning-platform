@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Online Learning Resource Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="subjects.html">Subjects</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <h2>Get in Touch with Us</h2>
+            <p>We are here to help and answer any questions you might have. We look forward to hearing from you.</p>
+
+            <div class="contact-info" style="margin-top: 30px; display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+                <div style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 20px; border-radius: 8px; flex: 1 1 calc(50% - 40px); max-width: 450px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                    <h3>General Inquiries</h3>
+                    <p><strong>Email:</strong> <a href="mailto:allendomisian1@gmail.com" style="color: #007bff; text-decoration: none;">info@onlinelearning.com</a></p>
+                    <p><strong>Phone:</strong> +255 761 710 761</p>
+                    <p><strong>Address:</strong> IFM Campus, Dar es Salaam, Tanzania</p>
+                </div>
+                <div style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 20px; border-radius: 8px; flex: 1 1 calc(50% - 40px); max-width: 450px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                    <h3>Support</h3>
+                    <p>For technical support or issues with the platform, please contact:</p>
+                    <p><strong>Email:</strong> <a href="mailto:support@onlinelearning.com" style="color: #007bff; text-decoration: none;">support@onlinelearning.com</a></p>
+                    <p><strong>Phone:</strong> +255 678 713 067</p>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 40px; text-align: center; color: #0056b3;">Send Us a Message</h3>
+            <form class="contact-form" style="max-width: 600px; margin: 20px auto; padding: 25px; background-color: #f0f8ff; border: 1px solid #cceeff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                <div style="margin-bottom: 15px;">
+                    <label for="name" style="display: block; margin-bottom: 5px; font-weight: bold;">Your Name:</label>
+                    <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">Your Email:</label>
+                    <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label for="subject" style="display: block; margin-bottom: 5px; font-weight: bold;">Subject:</label>
+                    <input type="text" id="subject" name="subject" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box;">
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label for="message" style="display: block; margin-bottom: 5px; font-weight: bold;">Message:</label>
+                    <textarea id="message" name="message" rows="6" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; resize: vertical;"></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%; padding: 12px; font-size: 1.1rem;">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Online Learning Resource Website. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
